@@ -2,6 +2,10 @@
 
 Online data editor for [Genshin emu server](https://github.com/Grasscutters/Grasscutter/)
 
+## Example Data
+
+Drop items example json file can download [here](https://maticsl.github.io/genshindataeditor/Drop.json)
+
 ## Build Setup
 
 ``` bash
