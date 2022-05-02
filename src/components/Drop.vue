@@ -91,23 +91,27 @@
       <el-form-item label="最小数量">
         <el-slider
           v-model="currentItemInfo.minCount"
+          max=65535
           show-input>
         </el-slider>
       </el-form-item>
       <el-form-item label="最大数量">
         <el-slider
           v-model="currentItemInfo.maxCount"
+          max=65535
           show-input>
         </el-slider>
       </el-form-item>
       <el-form-item label="最小权值">
         <el-slider
+          max=10000
           v-model="currentItemInfo.minWeight"
           show-input>
         </el-slider>
       </el-form-item>
       <el-form-item label="最大权值">
         <el-slider
+          max=10000
           v-model="currentItemInfo.maxWeight"
           show-input>
         </el-slider>
